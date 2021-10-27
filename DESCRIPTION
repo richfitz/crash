@@ -1,0 +1,16 @@
+Package: crash
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rich","FitzJohn", role = c("aut", "cre"),
+           email = "rich.fitzjohn@gmail.com")
+Description: Cause a crash with V8 and testthat.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+    V8
+Suggests: 
+    testthat (>= 3.0.0)
